@@ -53,6 +53,7 @@ df = pd.DataFrame({
 })
 
 df.to_csv("imdb_top_250.csv", index=False)
+df.to_csv("imdb_top_250.csv", index=False)
 
 print(f"✅ Successfully scraped {len(df)} movies in headless mode!")
 print("📁 Clean file saved as 'imdb_top_250.csv'")
